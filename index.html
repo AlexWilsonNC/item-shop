@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Item Shop</title>
+    <link rel="icon" type="image/jpg" href="./assets/item-logo.jpg">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
@@ -16,29 +18,31 @@
 
 <body>
     <nav>
-        <div id='left-nav'>
-            <img id='logo' src='./assets/item-logo.jpg' alt='item shop logo'>
+        <div id='right-nav-drop'>
+            <i id='nav-collapse' class="fas fa-bars"></i>
+            <div id='dropdown-content'>
+                <a href='#'>Sealed Product</a>
+                <a href='#'>TCG Accessories</a>
+                <a href='#'>Collectibles</a>
+                <a href='#'>Legos</a>
+                <a href='#'>Games</a>
+                <a href='#' target='_'>Level Up</a>
+            </div>
         </div>
-        <div id='right-nav'>
-            <div id='cart'>
-                <i id='cart' class="fas fa-sack"></i>
-            </div>
-            <div id='right-nav-drop'>
-                <i id='nav-collapse' class="fas fa-bars"></i>
-                <div id='dropdown-content'>
-                    <a href='#'>Sealed Product</a>
-                    <a href='#'>TCG Accessories</a>
-                    <a href='#'>Collectibles</a>
-                    <a href='#'>Legos</a>
-                    <a href='#'>Games</a>
-                    <a href='#' target='_'>Level Up</a>
-                </div>
-            </div>
+        <a href='#'>
+            <img id='logo' src='./assets/item-logo.jpg' alt='item shop logo'>
+        </a>
+        <div id='cart'>
+            <img id='cart' src='./assets/cart.png'>
         </div>
     </nav>
     <main>
         <div id='photo-slider'>
-            <img src='./assets/lego.jpg'>
+            <figure>
+                <img src='./assets/slide1.jpg'>
+                <img src='./assets/slide2.jpg'>
+                <img src='./assets/slide3.jpg'>
+            </figure>
         </div>
         <div id='entry-modal'>
             <div id='button-right'>
@@ -46,6 +50,7 @@
             </div>
             <p>Welcome weary traveler, to The Item Shop...</p>
         </div>
+        <!-- <h2>Our Featured Wares</h2> -->
         <div id='featured'>
             <div class='featured-card featured-lego'>
                 <p class='featured-text'>Legos</p>
@@ -57,7 +62,14 @@
                 <p class='featured-text'>Games</p>
             </div>
         </div>
+        <div id='top-sellers'>
+            
+        </div>
     </main>
+
+    <footer>
+        <p>Sign in for 10% off your first order.</p>
+    </footer>
 
     <script src="index.js"></script>
 </body>

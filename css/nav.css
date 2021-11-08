@@ -13,36 +13,29 @@ nav {
     background-color: #fff;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 #logo {
     width: 50px;
-    margin-left: 50px;
-}
-
-#right-nav {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
 }
 
 #cart {
-    font-size: 36px;
-    color: black;
-    margin-left: -50px;
+    width: 37px;
+    margin: 4.5px 25px 0px 0px;
 }
 
 #nav-collapse {
     font-size: 36px;
-    margin-right: 50px;
-    transition: ease 1s linear;
+    transition: ease 1s linear;margin: 10px 0px 0px 25px;
 }
 
 #dropdown-content {
     z-index: 100;
     display: none;
     position: absolute;
-    margin: 0px 0px 0px -140px;
+    width: 200px;
+    margin-left: 10px;
     padding: 15px;
     background-color: rgba(255,255,255,0.65);
     backdrop-filter: blur(4px);
@@ -54,6 +47,7 @@ nav {
 #dropdown-content a {
     color: #000;
     font-size: 24px;
+    margin-bottom: 6.5px;
 }
 
 #dropdown-content a:hover {
