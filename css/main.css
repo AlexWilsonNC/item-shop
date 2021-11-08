@@ -73,7 +73,7 @@ main {
     backdrop-filter: blur(4px);
     z-index: 100;
     position: fixed;
-    top: 500px;
+    bottom: 60px;
     animation: 3s ease-out 0s 1 slideInLeft;
 }
 #entry-modal p {
