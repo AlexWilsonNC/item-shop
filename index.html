@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Item Shop</title>
+    <title>Item Shop</title>
     <link rel="icon" type="image/jpg" href="./assets/item-logo.jpg">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/main.css">
@@ -29,19 +29,19 @@
                 <a href='#' target='_'>Level Up</a>
             </div>
         </div>
-        <a href='#'>
+        <a href='./index.html'>
             <img id='logo' src='./assets/item-logo.jpg' alt='item shop logo'>
         </a>
         <div id='cart'>
-            <img id='cart' src='./assets/cart.png'>
+            <img id='cart' src='./assets/cart.png' alt='shopping cart icon'>
         </div>
     </nav>
     <main>
         <div id='photo-slider'>
             <figure>
-                <img src='./assets/slide1.jpg'>
-                <img src='./assets/slide2.jpg'>
-                <img src='./assets/slide3.jpg'>
+                <img src='./assets/slide1.jpg' alt='students having fun'>
+                <img src='./assets/slide2.jpg' alt='lego characters'>
+                <img src='./assets/slide3.jpg' alt='board game event'>
             </figure>
         </div>
         <div id='entry-modal'>
@@ -62,13 +62,44 @@
                 <p class='featured-text'>Games</p>
             </div>
         </div>
+        <h2>Best Sellers</h2>
         <div id='top-sellers'>
-            
+            <div class='product'>
+                <img src='./assets/sleeves.jpg' alt='sleeves'>
+                <div class='product-info'>
+                    <p class='product-name'>Standard TCG Sleeves</p>
+                </div>
+            </div>
+            <div class='product'>
+                <img src='./assets/friends.jpg' alt='lego friends'>
+                <div class='product-info'>
+                    <p class='product-name'>Lego Friends Edition</p>
+                </div>
+            </div>
+            <div class='product'>
+                <img src='./assets/c3po.jpg' alt='C-3PO from star wars'>
+                <div class='product-info'>
+                    <p class='product-name'>C-3PO Funko Pop</p>
+                </div>
+            </div>
+            <div class='product'>
+                <img src='./assets/monopoly-pokemon.jpg' alt='pokemon monopoly'>
+                <div class='product-info'>
+                    <p class='product-name'>Monolpoly Pokemon Edition</p>
+                </div>
+            </div>
         </div>
     </main>
 
+    <a href='./pages/register.html'>
+        <div id='signin-note'>
+            <p>Sign in for 10% off your first order.</p>
+        </div>
+    </a>
+
     <footer>
-        <p>Sign in for 10% off your first order.</p>
+        <a href='./index.html'>The Item Shop</a>
+        <a href='https://levelupinstem.com/' target='_'>w/ Level Up LLC</p>
     </footer>
 
     <script src="index.js"></script>

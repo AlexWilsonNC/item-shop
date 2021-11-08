@@ -64,7 +64,7 @@ main {
 }
 
 #entry-modal {
-    width: 80%;
+    width: 70%;
     padding: 25px 15px 40px 15px;
     text-align: center;
     background-color: rgba(0,0,0,0.65);
@@ -72,11 +72,11 @@ main {
     backdrop-filter: blur(4px);
     z-index: 100;
     position: fixed;
-    bottom: 50px;
+    top: 650px;
     animation: 3s ease-out 0s 1 slideInLeft;
 }
 #entry-modal p {
-    font-size: 30px;
+    font-size: 24px;
     color: #fff;
     text-shadow: 1px 1px black;
 }
@@ -97,15 +97,15 @@ main {
 }
 
 h2 {
-    font-size: 22px;
-    margin: 15px 0px;
+    font-size: 26px;
+    margin: 21px 0px;
 }
 
 #featured {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin: 25px 0px;
+    margin-top: 25px;
 }
 
 .featured-card {
@@ -138,4 +138,36 @@ h2 {
 }
 .featured-games {
     background-image: url('../assets/games.jpg');
+}
+
+#top-sellers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 170px;
+    height: 215px;
+    margin: 15px 0px;
+    overflow: hidden;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.product img {
+    height: 80%;
+}
+
+.product-info {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.product-info p {
+    font-weight: 500;
 }
