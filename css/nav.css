@@ -21,7 +21,15 @@ nav {
 }
 
 #right-nav {
-    transition: ease 1s linear;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#cart {
+    font-size: 36px;
+    color: black;
+    margin-left: -50px;
 }
 
 #nav-collapse {
@@ -46,18 +54,17 @@ nav {
 #dropdown-content a {
     color: #000;
     font-size: 24px;
-    text-shadow: 1px 1px black;
 }
 
 #dropdown-content a:hover {
     color: rgb(45, 191, 178);
 }
 
-#right-nav:hover #nav-collapse {
+#right-nav-drop:hover #nav-collapse {
     color: rgb(45, 191, 178);
 }
 
-#right-nav:hover #dropdown-content {
+#right-nav-drop:hover #dropdown-content {
     display: flex;
     flex-direction: column;
 }
