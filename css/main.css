@@ -15,6 +15,7 @@ main {
     margin: 0;
     left: 0;
     animation: 16s slider infinite;
+    border-top: 2px solid black;
 }
 
 #photo-slider figure img {
@@ -72,11 +73,11 @@ main {
     backdrop-filter: blur(4px);
     z-index: 100;
     position: fixed;
-    top: 650px;
+    top: 500px;
     animation: 3s ease-out 0s 1 slideInLeft;
 }
 #entry-modal p {
-    font-size: 24px;
+    font-size: 27px;
     color: #fff;
     text-shadow: 1px 1px black;
 }
@@ -151,7 +152,7 @@ h2 {
     height: 215px;
     margin: 15px 0px;
     overflow: hidden;
-    border: 1px solid grey;
+    border: 1px solid rgba(128, 128, 128, 0.486);
     border-radius: 15px;
     padding: 5px;
 }
