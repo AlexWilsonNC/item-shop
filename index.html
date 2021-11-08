@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Item Shop</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
@@ -23,9 +24,26 @@
                 <a href='#'>Collectibles</a>
                 <a href='#'>Legos</a>
                 <a href='#'>Games</a>
+                <a href='#' target='_'>Level Up</a>
             </div>
         </div>
     </nav>
+    <main>
+        <div id='photo-slider'>
+            <img src='./assets/lego.jpg'>
+        </div>
+        <div id='entry-modal'>
+            <div id='button-right'>
+                <button id='modal-btn' onclick='closeModal()'>X</button>
+            </div>
+            <p>Welcome weary traveler, to The Item Shop...</p>
+        </div>
+        <div id='featured'>
+            <div class='featured-card featured-lego'><p class='featured-text'>Legos</p></div>
+            <div class='featured-card featured-tcg'><p class='featured-text'>Pokémon</p></div>
+            <div class='featured-card featured-games'><p class='featured-text'>Games</p></div>
+        </div>
+    </main>
 
 <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 <script src="index.js"></script>

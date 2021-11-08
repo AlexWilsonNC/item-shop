@@ -1,0 +1,102 @@
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#photo-slider {
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#photo-slider img {
+    width: 90%;
+}
+
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+
+#entry-modal {
+    width: 80%;
+    padding: 25px 15px 40px 15px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.65);
+    border-radius: 15px;
+    backdrop-filter: blur(4px);
+    z-index: 100;
+    position: fixed;
+    bottom: 100px;
+    animation: 3s ease-out 0s 1 slideInLeft;
+}
+#entry-modal p {
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 1px 1px black;
+}
+#button-right {
+    display: flex;
+    justify-content: flex-end;
+}
+#modal-btn {
+    background-color: transparent;
+    border-style: none;
+    color: #fff;
+    font-size: 19px;
+    position: relative;
+    top: -10px;
+}
+#modal-btn:hover {
+    cursor: pointer;
+}
+
+#featured {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0px;
+    width: 100%;
+}
+
+.featured-card {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: rgba(61, 61, 61, 0.24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+}
+
+.featured-text {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 1px 1px black;
+    padding: 100%;
+    background-color: rgba(0,0,0,0.35);
+}
+
+.featured-lego {
+    background-image: url('../assets/lego-bg.jpg');
+}
+.featured-tcg {
+    background-image: url('../assets/poke-cards.jpg');
+}
+.featured-games {
+    background-image: url('../assets/games.jpg');
+}
