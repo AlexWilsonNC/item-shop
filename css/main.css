@@ -76,9 +76,9 @@ main {
     bottom: 60px;
     animation: 3s ease-out 0s 1 slideInLeft;
 }
-#entry-modal p {
-    font-size: 27px;
+h1 {
     color: #fff;
+    font-weight: 300;
     text-shadow: 1px 1px black;
 }
 #button-right {
@@ -171,4 +171,5 @@ h2 {
 
 .product-info p {
     font-weight: 500;
+    color: #000;
 }

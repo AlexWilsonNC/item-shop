@@ -21,22 +21,28 @@
         <div id='right-nav-drop'>
             <i id='nav-collapse' class="fas fa-bars"></i>
             <div id='dropdown-content'>
-                <a href='#'>Sealed Product</a>
-                <a href='#'>TCG Accessories</a>
-                <a href='#'>Collectibles</a>
-                <a href='#'>Legos</a>
-                <a href='#'>Games</a>
-                <a href='#' target='_'>Level Up</a>
+                <a href='./pages/shop.html'>Shop</a>
+                <a href='./pages/about.html'>About</a>
+                <a href='./pages/register.html'>Login</a>
+                <a href='https://levelupinstem.com/' target='_'>Level Up</a>
             </div>
         </div>
         <a href='./index.html'>
             <img id='logo' src='./assets/item-logo.jpg' alt='item shop logo'>
         </a>
-        <div id='cart'>
-            <img id='cart' src='./assets/cart.png' alt='shopping cart icon'>
-        </div>
+        <a href='./pages/cart.html'>
+            <div id='cart'>
+                <img id='cart' src='./assets/cart.png' alt='shopping cart icon'>
+            </div>
+        </a>
     </nav>
     <main>
+        <div id='entry-modal'>
+            <div id='button-right'>
+                <button id='modal-btn' onclick='closeModal()'>X</button>
+            </div>
+            <h1>Welcome weary traveler, to The Item Shop... blah blah blah</h1>
+        </div>
         <div id='photo-slider'>
             <figure>
                 <img src='./assets/slide1.jpg' alt='students having fun'>
@@ -44,50 +50,57 @@
                 <img src='./assets/slide3.jpg' alt='board game event'>
             </figure>
         </div>
-        <div id='entry-modal'>
-            <div id='button-right'>
-                <button id='modal-btn' onclick='closeModal()'>X</button>
-            </div>
-            <p>Welcome weary traveler, to The Item Shop... blah blah blah</p>
-        </div>
-        <!-- <h2>Our Featured Wares</h2> -->
         <div id='featured'>
-            <div class='featured-card featured-lego'>
-                <p class='featured-text'>Legos</p>
-            </div>
-            <div class='featured-card featured-tcg'>
-                <p class='featured-text'>Pokémon</p>
-            </div>
-            <div class='featured-card featured-games'>
-                <p class='featured-text'>Games</p>
-            </div>
+            <a href='./pages/shop.html'>
+                <div class='featured-card featured-lego'>
+                    <p class='featured-text'>Legos</p>
+                </div>
+            </a>
+            <a href='./pages/shop.html'>
+                <div class='featured-card featured-tcg'>
+                    <p class='featured-text'>Pokémon</p>
+                </div>
+            </a>
+            <a href='./pages/shop.html'>
+                <div class='featured-card featured-games'>
+                    <p class='featured-text'>Games</p>
+                </div>
+            </a>
         </div>
         <h2>Best Sellers</h2>
         <div id='top-sellers'>
-            <div class='product'>
-                <img src='./assets/sleeves.jpg' alt='sleeves'>
-                <div class='product-info'>
-                    <p class='product-name'>Standard TCG Sleeves</p>
+            <a href='./pages/shop.html'>
+                <div class='product'>
+                    <img src='./assets/sleeves.jpg' alt='sleeves'>
+                    <div class='product-info'>
+                        <p class='product-name'>Standard TCG Sleeves</p>
+                    </div>
                 </div>
-            </div>
-            <div class='product'>
-                <img src='./assets/friends.jpg' alt='lego friends'>
-                <div class='product-info'>
-                    <p class='product-name'>Lego Friends Edition</p>
+            </a>
+            <a href='./pages/shop.html'>
+                <div class='product'>
+                    <img src='./assets/friends.jpg' alt='lego friends'>
+                    <div class='product-info'>
+                        <p class='product-name'>Lego Friends Edition</p>
+                    </div>
                 </div>
-            </div>
-            <div class='product'>
-                <img src='./assets/c3po.jpg' alt='C-3PO from star wars'>
-                <div class='product-info'>
-                    <p class='product-name'>C-3PO Funko Pop</p>
+            </a>
+            <a href='./pages/shop.html'>
+                <div class='product'>
+                    <img src='./assets/c3po.jpg' alt='C-3PO from star wars'>
+                    <div class='product-info'>
+                        <p class='product-name'>C-3PO Funko Pop</p>
+                    </div>
                 </div>
-            </div>
-            <div class='product'>
-                <img src='./assets/monopoly-pokemon.jpg' alt='pokemon monopoly'>
-                <div class='product-info'>
-                    <p class='product-name'>Monolpoly Pokemon Edition</p>
+            </a>
+            <a href='./pages/shop.html'>
+                <div class='product'>
+                    <img src='./assets/monopoly-pokemon.jpg' alt='pokemon monopoly'>
+                    <div class='product-info'>
+                        <p class='product-name'>Monolpoly Pokemon Edition</p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </main>
 
