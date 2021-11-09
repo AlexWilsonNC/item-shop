@@ -9,6 +9,7 @@
     justify-content: center;
     font-size: 18px;
     color: #000;
+    z-index: 100;
 }
 
 #signin-note span {
@@ -20,7 +21,6 @@ footer {
     background-color: black;
     display: flex;
     flex-direction: column;
-    margin-bottom: 39px;
 }
 
 #top-footer {
