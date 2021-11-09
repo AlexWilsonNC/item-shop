@@ -16,14 +16,30 @@
 }
 
 footer {
-    height: 60px;
+    height: 100px;
     background-color: black;
     display: flex;
+    flex-direction: column;
+    margin-bottom: 39px;
+}
+
+#top-footer {
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    margin: 15px 0px 39px;
+    margin: 10px 0px;
 }
 
 footer * {
     color: #fff;
+}
+
+#bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+
+#bottom-footer p {
+    margin-bottom: 7.5px;
 }

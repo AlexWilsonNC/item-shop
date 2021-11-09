@@ -157,7 +157,7 @@ h2 {
     border-radius: 15px;
 }
 
-#top-sellers {
+.top-sellers {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -168,7 +168,7 @@ h2 {
     height: 215px;
     margin: 15px 0px;
     overflow: hidden;
-    border: 1px solid rgba(128, 128, 128, 0.486);
+    border: 1px solid rgba(128, 128, 128, 0.15);
     border-radius: 15px;
     padding: 5px;
 }
@@ -188,4 +188,9 @@ h2 {
 .product-info p {
     font-weight: 500;
     color: #000;
+}
+
+#event-banner img{
+    width: 100%;
+    margin: 15px 0px;
 }

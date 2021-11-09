@@ -1,0 +1,38 @@
+#contact-bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: rgba(209, 209, 209, 0.966);
+}
+
+#contact-bottom h3 {
+    font-size: 28px;
+}
+
+#social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+#facebook,
+#twitter {
+    width: 40px;
+    margin-right: 20px;
+}
+
+
+#levelup {
+    width: 75px;
+    margin-top: -15px;
+}
+
+#social p {
+    font-size: 22px;
+    color: #000;
+}
+
+#emailus {
+    margin: 10px 0px;
+}

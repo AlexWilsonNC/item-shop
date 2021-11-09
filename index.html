@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/bottom.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
@@ -48,6 +49,12 @@
             </a>
         </div>
     </nav>
+
+    <a aria-label="login" href='./pages/register.html'>
+        <div id='signin-note'>
+            <p>Use code <span>November</span> for 5% off your order.</p>
+        </div>
+    </a>
 
     <main>
         <div id='entry-modal'>
@@ -90,7 +97,7 @@
         </div>
 
         <h2>Best Sellers</h2>
-        <div id='top-sellers'>
+        <div class='top-sellers'>
             <a aria-label="shop" href='./pages/shop.html'>
                 <div class='product'>
                     <img src='./assets/sleeves.jpg' alt='sleeves'>
@@ -124,26 +131,77 @@
                 </div>
             </a>
         </div>
+
+        <div id='event-banner'>
+            <img src='./assets/legendsprerelease.jpg' alt='magic prerelease'>
+        </div>
+
+        <h2>New Releases</h2>
+        <div class='top-sellers'>
+            <a aria-label="shop" href='./pages/shop.html'>
+                <div class='product'>
+                    <img src='./assets/fusion-strike-boosterbox.jpg' alt='booster box'>
+                    <div class='product-info'>
+                        <p class='product-name'>Fusion Strike Booster Box</p>
+                    </div>
+                </div>
+            </a>
+            <a aria-label="shop" href='./pages/shop.html'>
+                <div class='product'>
+                    <img src='./assets/fusion-strike-elite-trainer-box.png' alt='etb'>
+                    <div class='product-info'>
+                        <p class='product-name'>Fusion Strike ETB</p>
+                    </div>
+                </div>
+            </a>
+        </div>
     </main>
 
-    <a aria-label="login" href='./pages/register.html'>
-        <div id='signin-note'>
-            <p>Use code <span>November</span> for 5% off your order.</p>
+    <div id='contact-bottom'>
+        <div id='social'>
+            <h3>Connect With Us</h3>
+            <div id='social-icons'>
+                <a aria-label="facebook" href='https://www.facebook.com/' target='_'>
+                    <img id='facebook' src='./assets/fb.png' alt='facebook icon'>
+                </a>
+                <a aria-label="twitter" href='https://twitter.com/' target='_'>
+                    <img id='twitter' src='./assets/twitter-icon-white-png-25.jpg' alt='twitter icon'>
+                </a>
+                <a aria-label="levelup" href='https://levelupinstem.com/' target='_'>
+                    <img id='levelup' src='./assets/levelup.png' alt='levelup icon'>
+                </a>
+            </div>
+            <a aria-label='googleMap'
+                href='https://www.google.com/maps/place/Level+Up!+Innovative+STEMulation,+1311+Matthews-Mint+Hill+Rd,+Matthews,+NC+28105/@35.1191861,-80.7016818,19z/data=!4m2!3m1!1s0x885426a98b6e4b35:0xae64fe4f8bde29ae'
+                target='_'>
+                <p>1311 Matthews-Mint Hill Rd</p>
+                <p>Matthews, NC 28105</p>
+            </a>
+            <a aria-label='email' href=”mailto:Info@LevelUpInSTEM.com>
+                <p id='emailus'>Email Us</p>
+            </a>
+            <a aria-label='phone' href="tel:704-443-7016">
+                <p>Call Us</p>
+            </a>
         </div>
-    </a>
+    </div>
 
     <footer>
-        <div>
-            <a aria-label="home" href='./index.html'>The Item Shop</a>
-            <p>blah</p>
+        <div id='top-footer'>
+            <a aria-label="shop" href='./pages/shop.html'>Shop</a>
+            <a aria-label="events" href='./pages/events.html'>Events</a>
+            <a aria-label="about" href='./pages/about.html'>About</a>
+            <a aria-label="contact" href='./pages/contact.html'>Contact</a>
         </div>
-        <div>
-            <p>bloo</p>
-            <p>blee</p>
-        </div>
-        <div>
-            <a aria-label="levelup" href='https://levelupinstem.com/' target='_'>Level Up</a>
-            <p>bwah</p>
+        <div id='bottom-footer'>
+            <div>
+                <p>The Item Shop LLC*</p>
+                <p>Privacy Rights</p>
+            </div>
+            <div>
+                <p>Returns</p>
+                <p>Careers</p>
+            </div>
         </div>
     </footer>
     <script src="index.js"></script>
