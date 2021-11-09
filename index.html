@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Item Shop</title>
-    <meta name='description' content='Charlotte-Matthews exclusive game shop/toy store/ after school program. Come hang with us and discover your favorite hobby!'>
+    <meta name='description'
+        content='Charlotte-Matthews exclusive game shop/toy store/ after school program. Come hang with us and discover your favorite hobby!'>
     <link rel="icon" type="image/jpg" href="./assets/item-logo.jpg">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/main.css">
@@ -21,28 +22,26 @@
     <nav>
         <div id='right-nav-drop'>
             <i id='nav-collapse' class="fas fa-bars"></i>
-            <a href='./index.html'>
+            <a aria-label="home" href='./index.html'>
                 <img id='logo' src='./assets/item-logo.jpg' alt='item shop logo'>
             </a>
             <div id='dropdown-content'>
-                <a href='./pages/shop.html'>Shop</a>
+                <a aria-label="shop" href='./pages/shop.html'>Shop</a>
                 <hr>
-                <a href='./pages/events.html'>Events</a>
+                <a aria-label="events" href='./pages/events.html'>Events</a>
                 <hr>
-                <a href='./pages/about.html'>About</a>
+                <a aria-label="about" href='./pages/about.html'>About</a>
                 <hr>
-                <a href='./pages/contact.html'>Contact</a>
+                <a aria-label="contact" href='./pages/contact.html'>Contact</a>
                 <hr>
-                <a href='https://levelupinstem.com/' target='_'>Level Up</a>
+                <a aria-label="levelup" href='https://levelupinstem.com/' target='_'>Level Up</a>
             </div>
         </div>
         <div id='sign-n-cart'>
-            <a href='./pages/register.html'>
-                <div id='login'>
-                    <a href='./pages/register.html'>Sign In</a>
-                </div>
-            </a>
-            <a href='./pages/cart.html'>
+            <div id='login'>
+                <a aria-label="signin" href='./pages/register.html'>Sign In</a>
+            </div>
+            <a aria-label="shoppingcart" href='./pages/cart.html'>
                 <div id='cart'>
                     <img id='cart' src='./assets/cart.png' alt='shopping cart icon'>
                 </div>
@@ -53,7 +52,7 @@
     <main>
         <div id='entry-modal'>
             <div id='button-right'>
-                <button id='modal-btn' onclick='closeModal()'>X</button>
+                <button aria-label="Close" id='modal-btn' onclick='closeModal()'>X</button>
             </div>
             <h1>Level Up students recieve 10% off all purchases from The Item Shop!</h1>
             <p id='more'>Learn more...</p>
@@ -68,17 +67,17 @@
         </div>
 
         <div id='featured'>
-            <a href='./pages/shop.html'>
+            <a aria-label="shop" href='./pages/shop.html'>
                 <div class='featured-card featured-lego'>
                     <p class='featured-text'>Legos</p>
                 </div>
             </a>
-            <a href='./pages/shop.html'>
+            <a aria-label="shop" href='./pages/shop.html'>
                 <div class='featured-card featured-tcg'>
                     <p class='featured-text'>Pokémon</p>
                 </div>
             </a>
-            <a href='./pages/shop.html'>
+            <a aria-label="shop" href='./pages/shop.html'>
                 <div class='featured-card featured-games'>
                     <p class='featured-text'>Games</p>
                 </div>
@@ -92,7 +91,7 @@
 
         <h2>Best Sellers</h2>
         <div id='top-sellers'>
-            <a href='./pages/shop.html'>
+            <a aria-label="shop" href='./pages/shop.html'>
                 <div class='product'>
                     <img src='./assets/sleeves.jpg' alt='sleeves'>
                     <div class='product-info'>
@@ -100,7 +99,7 @@
                     </div>
                 </div>
             </a>
-            <a href='./pages/shop.html'>
+            <a aria-label="shop" href='./pages/shop.html'>
                 <div class='product'>
                     <img src='./assets/friends.jpg' alt='lego friends'>
                     <div class='product-info'>
@@ -108,7 +107,7 @@
                     </div>
                 </div>
             </a>
-            <a href='./pages/shop.html'>
+            <a aria-label="shop" href='./pages/shop.html'>
                 <div class='product'>
                     <img src='./assets/c3po.jpg' alt='C-3PO from star wars'>
                     <div class='product-info'>
@@ -116,7 +115,7 @@
                     </div>
                 </div>
             </a>
-            <a href='./pages/shop.html'>
+            <a aria-label="shop" href='./pages/shop.html'>
                 <div class='product'>
                     <img src='./assets/monopoly-pokemon.jpg' alt='pokemon monopoly'>
                     <div class='product-info'>
@@ -127,7 +126,7 @@
         </div>
     </main>
 
-    <a href='./pages/register.html'>
+    <a aria-label="login" href='./pages/register.html'>
         <div id='signin-note'>
             <p>Use code <span>November</span> for 5% off your order.</p>
         </div>
@@ -135,7 +134,7 @@
 
     <footer>
         <div>
-            <a href='./index.html'>The Item Shop</a>
+            <a aria-label="home" href='./index.html'>The Item Shop</a>
             <p>blah</p>
         </div>
         <div>
@@ -143,7 +142,7 @@
             <p>blee</p>
         </div>
         <div>
-            <a href='https://levelupinstem.com/' target='_'>Level Up</a>
+            <a aria-label="levelup" href='https://levelupinstem.com/' target='_'>Level Up</a>
             <p>bwah</p>
         </div>
     </footer>
