@@ -46,7 +46,8 @@ footer * {
 }
 
 .right-bottom-fotter {
-    text-align: end;
+    text-align: start;
+    margin-right: 50px;
 }
 
 .uparrow {
