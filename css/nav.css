@@ -16,19 +16,25 @@ nav {
     margin-bottom: 10px;
 }
 
+#right-nav-drop {
+    display: flex;
+    align-items: center;
+}
+
 #logo {
-    width: 50px;
+    width: 44px;
+    margin: 10px 0px 0px 20px;
 }
 
 #cart {
-    width: 36px;
+    width: 30px;
     margin: 4.5px 25px 0px 0px;
 }
 
 #nav-collapse {
     font-size: 33px;
     transition: ease 1s linear;
-    margin: 10px 0px 0px 25px;
+    margin: 15px 0px 0px 25px;
 }
 
 #dropdown-content {
@@ -37,19 +43,20 @@ nav {
     flex-direction: column;
     visibility: hidden;
     position: absolute;
-    width: 92.3%;
+    top: 65px;
     height: 100%;
+    width: 92.3%;
     padding: 30px 15px 15px 15px;
     background-color: rgba(255,255,255,0.65);
     backdrop-filter: blur(4px);
     border-radius: 15px;
     box-shadow: 2px 2px 8px 3px rgba(0,0,0,0.3);
-    transition: ease 1s linear;
+    /* transition: ease 1s linear; */
 }
 
 #dropdown-content hr {
     border: 0.5px solid black;
-    width: 60%;
+    width: 40%;
     margin-bottom: 16.5px;
 }
 
@@ -57,4 +64,19 @@ nav {
     color: #000;
     font-size: 28px;
     margin-bottom: 16.5px;
+}
+
+#sign-n-cart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+#login {
+    margin: 5px 15px 0px 0px;
+}
+
+#login a {
+    color: #000;
 }
