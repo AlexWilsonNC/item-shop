@@ -138,7 +138,7 @@ h2 {
     font-weight: 500;
     text-shadow: 1px 1px black;
     padding: 100%;
-    background-color: rgba(0,0,0,0.55);
+    background-color: rgba(0,0,0,0.45);
 }
 
 .featured-lego {
@@ -153,7 +153,7 @@ h2 {
 
 #main-about {
     padding: 15px 25px;
-    margin: 25px 0px;
+    margin: 25px;
     text-align: center;
     background-color: rgba(250, 177, 38, 0.9);
     font-size: 22px;

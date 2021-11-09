@@ -20,6 +20,8 @@
 </head>
 
 <body>
+    <img aria-label="BackToTop" class='uparrow' src='./assets/uparrow.png' alt='back to top arrow' onclick='scrollToTop();'>
+
     <a aria-label="login" href='./pages/register.html'>
         <div id='signin-note'>
             <p>Use code <span>November</span> for 5% off your order.</p>
@@ -61,7 +63,7 @@
                 <button aria-label="Close" id='modal-btn' onclick='closeModal()'>x</button>
             </div>
             <h1>Level Up students recieve 10% off all purchases from The Item Shop!</h1>
-            <p id='more'>Learn more...</p>
+            <a aria-label="levelup" href='https://levelupinstem.com/' id='more' target='_'>Learn more...</a>
         </div>
 
         <div id='photo-slider'>
@@ -198,12 +200,24 @@
                 <p>Privacy Rights</p>
             </div>
             <div>
-                <p>Returns</p>
-                <p>Careers</p>
+                <p class='right-bottom-fotter'>Careers</p>
+                <p class='right-bottom-fotter'>Return Policy</p>
             </div>
         </div>
     </footer>
     <script src="index.js"></script>
+    <script type='text/javascript'>
+        window.addEventListener('scroll', function() {
+            const scroll = document.querySelector('.uparrow');
+            scroll.classList.toggle('active', window.scrollY > 350)
+        })
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            })
+        }
+    </script>
 </body>
 
 </html>

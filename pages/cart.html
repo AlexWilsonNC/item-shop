@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/bottom.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
@@ -20,24 +21,84 @@
     <nav>
         <div id='right-nav-drop'>
             <i id='nav-collapse' class="fas fa-bars"></i>
+            <a aria-label="home" href='../index.html'>
+                <img id='logo' src='../assets/item-logo.jpg' alt='item shop logo'>
+            </a>
             <div id='dropdown-content'>
-                <a href='../index.html'>Home</a>
-                <a href='./shop.html'>Shop</a>
-                <a href='./about.html'>About</a>
-                <a href='https://levelupinstem.com/' target='_'>Level Up</a>
+                <a aria-label="shop" href='../index.html'>Home</a>
+                <hr>
+                <a aria-label="shop" href='./shop.html'>Shop</a>
+                <hr>
+                <a aria-label="events" href='./events.html'>Events</a>
+                <hr>
+                <a aria-label="about" href='./about.html'>About</a>
+                <hr>
+                <a aria-label="contact" href='./contact.html'>Contact</a>
+                <hr>
+                <a aria-label="levelup" href='https://levelupinstem.com/' target='_'>Level Up</a>
             </div>
         </div>
-        <a href='../index.html'>
-            <img id='logo' src='../assets/item-logo.jpg' alt='item shop logo'>
-        </a>
-        <a href='./cart.html'>
-            <div id='cart'>
-                <img id='cart' src='../assets/cart.png' alt='shopping cart icon'>
+        <div id='sign-n-cart'>
+            <div id='login'>
+                <a aria-label="signin" href='./register.html'>Sign In</a>
             </div>
-        </a>
+            <a aria-label="shoppingcart" href='./cart.html'>
+                <div id='cart'>
+                    <img id='cart' src='../assets/cart.png' alt='shopping cart icon'>
+                </div>
+            </a>
+        </div>
     </nav>
     <main>
-        Your cart is empty, have you checked <span><a href='./shop.html'>this out...?</a></span>
+        Cart Page
     </main>
+    <div id='contact-bottom'>
+        <div id='social'>
+            <h3>Connect With Us</h3>
+            <div id='social-icons'>
+                <a aria-label="facebook" href='https://www.facebook.com/' target='_'>
+                    <img id='facebook' src='../assets/fb.png' alt='facebook icon'>
+                </a>
+                <a aria-label="twitter" href='https://twitter.com/' target='_'>
+                    <img id='twitter' src='../assets/twitter-icon-white-png-25.jpg' alt='twitter icon'>
+                </a>
+                <a aria-label="levelup" href='https://levelupinstem.com/' target='_'>
+                    <img id='levelup' src='../assets/levelup.png' alt='levelup icon'>
+                </a>
+            </div>
+            <a aria-label='googleMap'
+                href='https://www.google.com/maps/place/Level+Up!+Innovative+STEMulation,+1311+Matthews-Mint+Hill+Rd,+Matthews,+NC+28105/@35.1191861,-80.7016818,19z/data=!4m2!3m1!1s0x885426a98b6e4b35:0xae64fe4f8bde29ae'
+                target='_'>
+                <p>1311 Matthews-Mint Hill Rd</p>
+                <p>Matthews, NC 28105</p>
+            </a>
+            <a aria-label='email' href=”mailto:Info@LevelUpInSTEM.com>
+                <p id='emailus'>Email Us</p>
+            </a>
+            <a aria-label='phone' href="tel:704-443-7016">
+                <p>Call Us</p>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <div id='top-footer'>
+            <a aria-label="shop" href='../pages/shop.html'>Shop</a>
+            <a aria-label="events" href='../pages/events.html'>Events</a>
+            <a aria-label="about" href='../pages/about.html'>About</a>
+            <a aria-label="contact" href='../pages/contact.html'>Contact</a>
+        </div>
+        <div id='bottom-footer'>
+            <div>
+                <p>The Item Shop LLC*</p>
+                <p>Privacy Rights</p>
+            </div>
+            <div>
+                <p>Returns</p>
+                <p>Careers</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../index.js"></script>
 </body>
 </html>
