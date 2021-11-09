@@ -194,3 +194,10 @@ h2 {
     width: 100%;
     margin: 15px 0px;
 }
+
+#new-releases {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
