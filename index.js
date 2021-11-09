@@ -7,10 +7,10 @@ closeModal = () => {
 }
 
 function dropdown() {
-    if (drop.style.visibility === 'hidden') {
-        drop.style.visibility = 'visible';
+    if (drop.style.opacity == 0) {
+        drop.style.opacity = 1;
     } else {
-        drop.style.visibility = 'hidden';
+        drop.style.opacity = 0;
     }
 }
 
