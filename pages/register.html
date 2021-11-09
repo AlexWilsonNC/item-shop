@@ -18,6 +18,11 @@
 </head>
 
 <body>
+    <a aria-label="login" href='./register.html'>
+        <div id='signin-note'>
+            <p>Use code <span>November</span> for 5% off your order.</p>
+        </div>
+    </a>
     <nav>
         <div id='right-nav-drop'>
             <i id='nav-collapse' class="fas fa-bars"></i>
@@ -99,6 +104,21 @@
             </div>
         </div>
     </footer>
-    <script src="../index.js"></script>
+    <img aria-label="BackToTop" class='uparrow' src='./assets/uparrow.png' alt='back to top arrow'
+        onclick='scrollToTop();'>
+    <script src="../index.html"></script>
+    <script type='text/javascript'>
+        window.addEventListener('scroll', function () {
+            const scroll = document.querySelector('.uparrow');
+            scroll.classList.toggle('active', window.scrollY > 350)
+        })
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            })
+        }
+    </script>
 </body>
+
 </html>
