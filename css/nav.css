@@ -22,7 +22,7 @@ nav {
 
 #cart {
     width: 36px;
-    margin: 5px 25px 0px 0px;
+    margin: 4.5px 25px 0px 0px;
 }
 
 #nav-collapse {
@@ -48,7 +48,7 @@ nav {
 }
 
 #dropdown-content hr {
-    border-bottom: 0.5px solid black;
+    border: 0.5px solid black;
     width: 60%;
     margin-bottom: 16.5px;
 }
