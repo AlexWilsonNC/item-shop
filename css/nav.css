@@ -72,10 +72,24 @@ nav {
     position: relative;
 }
 
+#sign-n-cart a {
+    color: #000;
+    margin: 5px 15px 0px 0px;
+}
+
 #login {
     margin: 5px 15px 0px 0px;
 }
 
-#login a {
-    color: #000;
+.large-nav-appear {
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    #nav-collapse {
+        display: none;
+    }
+    .large-nav-appear {
+        display:inline;
+    }
 }

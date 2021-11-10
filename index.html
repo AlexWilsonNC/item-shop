@@ -45,6 +45,10 @@
             </div>
         </div>
         <div id='sign-n-cart'>
+            <a class='large-nav-appear' aria-label="shop" href='./pages/shop.html'>Shop</a>
+            <a class='large-nav-appear' aria-label="events" href='./pages/events.html'>Events</a>
+            <a class='large-nav-appear' aria-label="about" href='./pages/about.html'>About</a>
+            <a class='large-nav-appear' aria-label="contact" href='./pages/contact.html'>Contact</a>
             <div id='login'>
                 <a aria-label="signin" href='./pages/register.html'>Sign In</a>
             </div>
@@ -92,8 +96,7 @@
         </div>
 
         <div id='main-about'>
-            <p>Welcome weary traveler, to the Item Shop. It's dangerous to travel alone, grab something from our
-                store for your next adventure. We're a humble hobby shop just outside Charlotte, NC.</p>
+            <p>Welcome weary traveler, it's dangerous to go alone, grab something from our store for your next adventure. We're but a humble hobby shop just outside Charlotte, NC.</p>
         </div>
 
         <h2>Best Sellers</h2>
@@ -157,6 +160,10 @@
         </div>
     </main>
 
+    <div class='center'>
+        <hr id='bottom-hr'>
+    </div>
+
     <div id='contact-bottom'>
         <div id='social'>
             <h3>Connect With Us</h3>
@@ -204,10 +211,11 @@
             </div>
         </div>
     </footer>
-    <img aria-label="BackToTop" class='uparrow' src='./assets/uparrow.png' alt='back to top arrow' onclick='scrollToTop()'>
+    <img aria-label="BackToTop" class='uparrow' src='./assets/uparrow.png' alt='back to top arrow'
+        onclick='scrollToTop()'>
     <script src="index.js"></script>
     <script type='text/javascript'>
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             const scroll = document.querySelector('.uparrow');
             scroll.classList.toggle('active', window.scrollY > 350)
         })
