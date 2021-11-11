@@ -66,8 +66,12 @@ body {
     margin: 5px 0px;
 }
 
-.product-long img {
+.product-image {
     width: 40%;
+}
+
+.product-image img {
+    height: 90%;
 }
 
 .product-price {
