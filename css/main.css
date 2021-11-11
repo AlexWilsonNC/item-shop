@@ -80,7 +80,7 @@ main {
     bottom: 75px;
     animation: 3s ease-out 0s 1 slideInLeft;
 }
-h1,
+#modal-h1,
 #more {
     color: #fff;
     font-size: 24px;
@@ -168,7 +168,7 @@ h2 {
     font-weight: 500;
     color: #fff;
     text-shadow: 1px 1px black;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.5);
     padding: 30px 20px;
     text-align: center;
 }

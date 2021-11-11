@@ -15,10 +15,12 @@
 #signin-note span {
     color: #fff;
     font-style: italic;
+    text-shadow: 1px 1px black;
+    margin-right: 4px;
 }
 
 footer {
-    height: 100px;
+    height: 125px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -38,7 +40,9 @@ footer * {
 #bottom-footer {
     display: flex;
     justify-content: space-between;
-    margin: 0px 25px;
+    align-items: center;
+    line-height: 30px;
+    margin: 4px 25px;
 }
 
 #bottom-footer p {
