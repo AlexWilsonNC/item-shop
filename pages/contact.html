@@ -1,71 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Item Shop | Contact</title>
-    <link rel="icon" type="image/jpg" href="../assets/item-logo.jpg">
-    <link rel="stylesheet" href="../css/nav.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/bottom.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link rel='icon' type='image/jpg' href='../assets/item-logo.jpg'>
+    <link rel='stylesheet' href='../css/nav.css'>
+    <link rel='stylesheet' href='../css/main.css'>
+    <link rel='stylesheet' href='../css/contact.css'>
+    <link rel='stylesheet' href='../css/footer.css'>
+    <link rel='stylesheet' href='../css/bottom.css'>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap' rel='stylesheet'>
+    <script src='https://kit.fontawesome.com/b99e675b6e.js'></script>
 </head>
 
 <body>
-    <a aria-label="login" href='./register.html'>
+    <a aria-label='login' href='./register.html'>
         <div id='signin-note'>
             <p>Use code <span>November</span> for 5% off your order.</p>
         </div>
     </a>
     <nav>
         <div id='right-nav-drop'>
-            <i id='nav-collapse' class="fas fa-bars"></i>
-            <a aria-label="home" href='../index.html'>
+            <i id='nav-collapse' class='fas fa-bars'></i>
+            <a aria-label='home' href='../index.html'>
                 <img id='logo' src='../assets/item-logo.jpg' alt='item shop logo'>
             </a>
             <div id='dropdown-content'>
-                <a aria-label="shop" href='../index.html'>Home</a>
+                <a aria-label='shop' href='../index.html'>Home</a>
                 <hr>
-                <a aria-label="shop" href='./shop.html'>Shop</a>
+                <a aria-label='shop' href='./shop.html'>Shop</a>
                 <hr>
-                <a aria-label="events" href='./events.html'>Events</a>
+                <a aria-label='events' href='./events.html'>Events</a>
                 <hr>
-                <a aria-label="about" href='./about.html'>About</a>
+                <a aria-label='about' href='./about.html'>About</a>
                 <hr>
-                <a aria-label="levelup" href='https://levelupinstem.com/' target='_'>Level Up</a>
+                <a aria-label='levelup' href='https://levelupinstem.com/' target='_'>Level Up</a>
             </div>
         </div>
         <div id='sign-n-cart'>
             <div id='login'>
-                <a aria-label="signin" href='./register.html'>Sign In</a>
+                <a aria-label='signin' href='./register.html'>Sign In</a>
             </div>
-            <a aria-label="shoppingcart" href='./cart.html'>
+            <a aria-label='shoppingcart' href='./cart.html'>
                 <div id='cart'>
                     <img id='cart' src='../assets/cart.png' alt='shopping cart icon'>
                 </div>
             </a>
         </div>
     </nav>
-    <main>
-        Contact Page
+    <main id='contact-main'>
+        <h1 id='contact-us-h1'>Contact Us</h1>
+        <p>Send us a message and we'll get back to you as soon as we can, usually same day.</p>
+        <div id='phone-section'>
+            <i class='fas fa-phone'></i>
+            <div id='number-plus-hrs'>
+                <p id='number-bold'>(704) 443-7016</p>
+                <p id='hours'>
+                    Monday - Friday: 11 AM - 7 PM
+                    Weekends: Events Only
+                </p>
+            </div>
+        </div>
+        <p id='email-literal'><i class='fas fa-envelope'></i>Info@LevelUpInSTEM.com</p>
+        <input type='text' id='enter-name' name='enter-name' placeholder='Name <span>*</span>'>
+        <input type='text' id='enter-email' name='enter-email' placeholder='Email <span>*</span>'>
+        <input type='text' id='enter-ordernum' name='enter-ordernum' placeholder='Order Number (optional)'>
+        <input type='text' id='enter-message' name='enter-message' placeholder='Message <span>*</span>'>
     </main>
+
+    <div class='center'>
+        <hr id='bottom-hr'>
+    </div>
+
     <div id='contact-bottom'>
         <div id='social'>
             <h3>Connect With Us</h3>
             <div id='social-icons'>
-                <a aria-label="facebook" href='https://www.facebook.com/' target='_'>
+                <a aria-label='facebook' href='https://www.facebook.com/' target='_'>
                     <img id='facebook' src='../assets/fb.png' alt='facebook icon'>
                 </a>
-                <a aria-label="twitter" href='https://twitter.com/' target='_'>
+                <a aria-label='twitter' href='https://twitter.com/' target='_'>
                     <img id='twitter' src='../assets/twitter-icon-white-png-25.jpg' alt='twitter icon'>
                 </a>
-                <a aria-label="levelup" href='https://levelupinstem.com/' target='_'>
+                <a aria-label='levelup' href='https://levelupinstem.com/' target='_'>
                     <img id='levelup' src='../assets/levelup.png' alt='levelup icon'>
                 </a>
             </div>
@@ -78,7 +100,7 @@
             <a aria-label='email' href=”mailto:Info@LevelUpInSTEM.com>
                 <p id='emailus'>Email Us</p>
             </a>
-            <a aria-label='phone' href="tel:704-443-7016">
+            <a aria-label='phone' href='tel:704-443-7016'>
                 <p>Call Us</p>
             </a>
         </div>
@@ -86,10 +108,10 @@
 
     <footer>
         <div id='top-footer'>
-            <a aria-label="shop" href='../pages/shop.html'>Shop</a>
-            <a aria-label="events" href='../pages/events.html'>Events</a>
-            <a aria-label="about" href='../pages/about.html'>About</a>
-            <a aria-label="contact" href='../pages/contact.html'>Contact</a>
+            <a aria-label='shop' href='../pages/shop.html'>Shop</a>
+            <a aria-label='events' href='../pages/events.html'>Events</a>
+            <a aria-label='about' href='../pages/about.html'>About</a>
+            <a aria-label='contact' href='../pages/contact.html'>Contact</a>
         </div>
         <div id='bottom-footer'>
             <div>
@@ -102,9 +124,9 @@
             </div>
         </div>
     </footer>
-    <img aria-label="BackToTop" class='uparrow' src='../assets/uparrow.png' alt='back to top arrow'
+    <img aria-label='BackToTop' class='uparrow' src='../assets/uparrow.png' alt='back to top arrow'
         onclick='scrollToTop();'>
-    <script src="../index.html"></script>
+    <script src='../index.js'></script>
     <script type='text/javascript'>
         window.addEventListener('scroll', function () {
             const scroll = document.querySelector('.uparrow');

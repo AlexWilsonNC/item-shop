@@ -8,7 +8,7 @@
     <title>Item Shop | Shop</title>
     <link rel="icon" type="image/jpg" href="../assets/item-logo.jpg">
     <link rel="stylesheet" href="../css/nav.css">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/shop.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/bottom.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,8 +53,83 @@
         </div>
     </nav>
     <main>
-        Shop Page
+        <div id='filter-section'>
+            <p id='filter-p'><img id='filter-icon' src='../assets/filter-menu.png'> Filter</p>
+            <p id='sort-p'><img id='sortsearch-icon' src='../assets/sort.png'> Sort</p>
+            <div id='filter-list'>
+                <ul>
+                    <li>Collectibles</li>
+                    <li>Digimon</li>
+                    <li>Figures</li>
+                    <li>Lego</li>
+                    <li>Magic the Gathering</li>
+                    <li>Pokemon</li>
+                    <li>Tabletop Games</li>
+                    <li>TCG Accessories</li>
+                    <li>Yugioh</li>
+                </ul>
+            </div>
+            <div id='sort-list'>
+                <ul>
+                    <li>Top Sellers</li>
+                    <li>Release: Newest > Oldest</li>
+                    <li>Release: Oldest > Newest</li>
+                    <li>Price: Low > High</li>
+                    <li>Price: High > Low</li>
+                    <li>A - Z</li>
+                    <li>Z - A</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id='all-items'>
+            <div class='product-long'>
+                <img src='../assets/fusion-strike-elite-trainer-box.png' alt='pokemon etb'>
+                <div class='product-price'>
+                    <p class='price'>$49.99</p>
+                    <p class='description'>Pokemon Fusion Strike ETB</p>
+                    <div class='release-margin'>
+                        <p class='release'>Release Date: 11/05/2021</p>
+                    </div>
+                </div>
+            </div>
+            <div class='product-long'>
+                <img src='../assets/fusion-strike-boosterbox.jpg' alt='pokemon booster box'>
+                <div class='product-price'>
+                    <p class='price'>$104.89</p>
+                    <p class='description'>Pokemon Fusion Strike Booster Box</p>
+                    <div class='release-margin'>
+                        <p class='release'>Release Date: 11/05/2021</p>
+                    </div>
+                </div>
+            </div>
+            <div class='product-long'>
+                <img src='../assets/sleeves.jpg' alt='sleeves'>
+                <div class='product-price'>
+                    <p class='price'>$9.99</p>
+                    <p class='description'>Sleeves (Black) Set of 50</p>
+                    <div class='release-margin'>
+                        <p class='release'>Release Date: 09/01/2020</p>
+                    </div>
+                </div>
+            </div>
+            <div class='product-long'>
+                <img src='../assets/monopoly-pokemon.jpg' alt='pokemon monopoly'>
+                <div class='product-price'>
+                    <p class='price'>$24.99</p>
+                    <p class='description'>Monopoly Pokemon Edition (Johto)</p>
+                    <div class='release-margin'>
+                        <p class='release'>Release Date: 12/01/2017</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <div class='center'>
+        <hr id='bottom-hr'>
+    </div>
+
     <div id='contact-bottom'>
         <div id='social'>
             <h3>Connect With Us</h3>
@@ -75,10 +150,10 @@
                 <p>1311 Matthews-Mint Hill Rd</p>
                 <p>Matthews, NC 28105</p>
             </a>
-            <a aria-label='email' href=”mailto:Info@LevelUpInSTEM.com>
+            <a aria-label='phone' href='mailto:Info@LevelUpInSTEM.com'>
                 <p id='emailus'>Email Us</p>
             </a>
-            <a aria-label='phone' href="tel:704-443-7016">
+            <a aria-label='phone' href='tel:704-443-7016'>
                 <p>Call Us</p>
             </a>
         </div>
@@ -97,14 +172,14 @@
                 <p>Privacy Rights</p>
             </div>
             <div>
-                <p>Returns</p>
-                <p>Careers</p>
+                <p class='right-bottom-fotter'>Returns</p>
+                <p class='right-bottom-fotter'>Careers</p>
             </div>
         </div>
     </footer>
     <img aria-label="BackToTop" class='uparrow' src='../assets/uparrow.png' alt='back to top arrow'
         onclick='scrollToTop();'>
-    <script src="../index.html"></script>
+    <script src="../index.js"></script>
     <script type='text/javascript'>
         window.addEventListener('scroll', function () {
             const scroll = document.querySelector('.uparrow');

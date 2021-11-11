@@ -57,6 +57,11 @@
     <main>
         Cart Page
     </main>
+    
+    <div class='center'>
+        <hr id='bottom-hr'>
+    </div>
+
     <div id='contact-bottom'>
         <div id='social'>
             <h3>Connect With Us</h3>
@@ -106,8 +111,8 @@
     </footer>
     <img aria-label="BackToTop" class='uparrow' src='../assets/uparrow.png' alt='back to top arrow'
         onclick='scrollToTop();'>
-    <script src="../index.html"></script>
-    <script type='text/javascript'>
+        <script src="../index.js"></script>
+        <script type='text/javascript'>
         window.addEventListener('scroll', function () {
             const scroll = document.querySelector('.uparrow');
             scroll.classList.toggle('active', window.scrollY > 350)
