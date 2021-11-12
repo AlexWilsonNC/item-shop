@@ -6,7 +6,7 @@
 }
 
 #contact-main * {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 #contact-us-h1 {
@@ -20,7 +20,10 @@
 #phone-section {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+}
+
+#hours {
+    margin-top: -5px;
 }
 
 .fa-envelope,
