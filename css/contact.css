@@ -41,9 +41,18 @@
     font-weight: 500;
 }
 
-#contact-main input {
+#contact-main input,
+#contact-main textarea {
     width: 90%;
     border: 1px solid darkgray;
+    font-size: 16px;
+    padding: 10px 10px 15px 10px;
+}
+
+form button {
     font-size: 20px;
-    padding: 10px;
+    padding: 10px 20px;
+    background-color: rgb(45, 191, 178);
+    letter-spacing: 2px;
+    border-style: none;
 }
