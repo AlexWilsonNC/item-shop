@@ -9,6 +9,7 @@
     <link rel="icon" type="image/jpg" href="../assets/item-logo.jpg">
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/register.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/bottom.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,10 +55,24 @@
             </a>
         </div>
     </nav>
-    <main>
-        Login Page
+    <main id='register-main'>
+        <div id='login-main'>
+            <h1 id='login-h1'>Welcome to the Item Shop</h1>
+            <p>Sign in to you account for a better experience.</p>
+        </div>
+        <form id="login">
+            <input class="login-width" id="login-value" type="text" placeholder="Email">
+            <input class="login-width" id="login-pw" type="text" placeholder="Password">
+            <input id="login-btn" type="submit" value="Login">
+        </form>
+        <p id='or-text'>- OR -</p>
+        <form id="signup">
+            <input class="signup-width" id="signup-value" type="text" placeholder="Enter an email">
+            <input class="signup-width" id="signup-pw" type="text" placeholder="Create a password">
+            <input id="signup-btn" type="submit" value="Sign Up">
+        </form>
     </main>
-    
+
     <div class='center'>
         <hr id='bottom-hr'>
     </div>
@@ -71,6 +86,9 @@
                 </a>
                 <a aria-label="twitter" href='https://twitter.com/' target='_'>
                     <img id='twitter' src='../assets/twitter-icon-white-png-25.jpg' alt='twitter icon'>
+                </a>
+                <a aria-label="tiktok" href='https://tiktok.com/' target='_'>
+                    <img id='tiktok' src='../assets/tiktok.png' alt='tiktok icon'>
                 </a>
                 <a aria-label="levelup" href='https://levelupinstem.com/' target='_'>
                     <img id='levelup' src='../assets/levelup.png' alt='levelup icon'>
@@ -104,15 +122,15 @@
                 <p>Privacy Rights</p>
             </div>
             <div>
-                <p>Returns</p>
-                <p>Careers</p>
+                <p class='right-bottom-fotter'>Returns</p>
+                <p class='right-bottom-fotter'>Careers</p>
             </div>
         </div>
     </footer>
     <img aria-label="BackToTop" class='uparrow' src='../assets/uparrow.png' alt='back to top arrow'
         onclick='scrollToTop();'>
-        <script src="../index.js"></script>
-        <script type='text/javascript'>
+    <script src="../index.js"></script>
+    <script type='text/javascript'>
         window.addEventListener('scroll', function () {
             const scroll = document.querySelector('.uparrow');
             scroll.classList.toggle('active', window.scrollY > 350)
