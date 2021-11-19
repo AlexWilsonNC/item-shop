@@ -1,24 +1,37 @@
-#register-main {
+.register-main {
     margin-bottom: 25px;
 }
 
-#login-main {
+.login-main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-#login-h1 {
+/* careers */
+.login-main1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin-bottom: 50px;
+}
+/* careers */
+
+.login-h1 {
     font-size: 24px;
     margin-bottom: 4px;
 }
 
+/* careers */
 #login,
-#signup {
+#signup,
+#newsletter {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+/* careers */
 
 .login-width,
 .signup-width {
