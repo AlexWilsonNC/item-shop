@@ -218,4 +218,49 @@ h2 {
     width: 100%;
 }
 
+#main-about-large {
+    display: none;
+}
+
 /* @media */
+
+@media screen and (min-width: 800px) {
+    #photo-slider {
+        height: 300px;
+    }
+    .featured-card {
+        width: 210px;
+        height: 160px;
+        border-radius: 10px;
+    }
+    .featured-text {
+        font-size: 32px;
+        letter-spacing: 4px;
+    }
+    #main-about {
+        display: none;
+    }
+    #main-about-large {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 50px 0px;
+    }
+    #main-about-large p {
+        font-size: 26px;
+    }
+    #main-about-large img {
+        width: 300px;
+        border-radius: 5px;
+    }
+    .top-sellers {
+        width: 80%;
+    }
+    #event-banner {
+        width: 90%;
+    }
+    #new-releases {
+        width: 80%;
+    }
+}

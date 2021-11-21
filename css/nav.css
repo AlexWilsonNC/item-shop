@@ -74,7 +74,7 @@ nav {
 
 #sign-n-cart a {
     color: #000;
-    margin: 5px 15px 0px 0px;
+    margin: 9.5px 15px 0px 0px;
 }
 
 #login {
@@ -85,11 +85,30 @@ nav {
     display: none;
 }
 
+#item-shop-label {
+    display: none;
+    font-size: 36px;
+    margin: 15px 0px 0px 10px;
+    color: rgb(46, 46, 46);
+}
+
+#item-shop-label span {
+    color: orange;
+}
+
 @media screen and (min-width: 800px) {
     #nav-collapse {
         display: none;
     }
     .large-nav-appear {
         display:inline;
+    }
+    #item-shop-label {
+        display: block;
+    }
+    #logo-area {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 }

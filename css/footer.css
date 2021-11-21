@@ -74,3 +74,11 @@ footer * {
       scroll-behavior: smooth;
     }
 }
+@media screen and (min-width: 800px) {
+    #bottom-footer {
+        justify-content: flex-start;
+    }
+    #bottom-footer p {
+        margin-right: 50px;
+    }
+}
