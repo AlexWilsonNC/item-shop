@@ -69,6 +69,10 @@ footer * {
     opacity: 0.85;
 }
 
+#free-ship {
+    display: none;
+}
+
 @media screen and (prefers-reduced-motion: no-preference) {
     html {
       scroll-behavior: smooth;
@@ -80,5 +84,16 @@ footer * {
     }
     #bottom-footer p {
         margin-right: 50px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    #signin-note {
+        justify-content: space-between;
+    }
+    #signin-note p {
+        margin: 0px 25px;
+    }
+    #free-ship {
+        display: block;
     }
 }

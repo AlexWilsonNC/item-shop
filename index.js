@@ -5,6 +5,7 @@ const filterList = document.getElementById('filter-list');
 const filter = document.getElementById('filter-p');
 const sortList = document.getElementById('sort-list');
 const sort = document.getElementById('sort-p');
+const prodBg = document.getElementById('drop-prod-bg');
 
 closeModal = () => {
     modal.style.display = 'none';
@@ -51,6 +52,14 @@ function sortdown() {
             sortList.style.display = 'none';
         }, 350)
     }
+}
+
+function dropProdFtd() {
+    if (prodBg.style.height == '85px') {
+        prodBg.style.height = '250px';
+        prodBg.classList.remove = 'fa-angle-down';
+        prodBg.classList.add = 'fa-angle-up';
+    } else (prodBg.style.height = '85px');
 }
 
 clicker.addEventListener('click', dropdown);
